@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 249, 249);
+}
+.wrapper{
+    max-width: 1300px;
+    margin: auto;
+}
+
+h1{
+    color: rgb(34, 54, 56);
+    text-align: center;
+    padding: 30px 0;
+}
+
+.purchases{
+    width: 900px;
+    margin: auto;
+    background-color: rgb(226, 247, 247);
+}
+
+.product{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.aboutproduct{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.nameOfProduct{
+    width: 200px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.price{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.discount{
+    margin: 15px 0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(226, 247, 247);
+    background-color: rgb(34, 54, 56);
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.allPrices{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .priceWithDiscount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.btn-result{
+    margin: 15px 0;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(226, 247, 247);
+    background-color: rgb(34, 54, 56);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+
+
